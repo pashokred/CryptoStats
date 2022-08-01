@@ -84,8 +84,8 @@ func float64ToString(f float64) string {
 }
 
 func sendCurrentPrice(price float64, emails []string) error {
-	from := ""                     // sender email
-	password := "kgshbnijjpcwmaji" // sender password
+	from := ""     // sender email
+	password := "" // sender password
 	smtpHost := "smtp.gmail.com"
 	smtpPort := "587"
 
